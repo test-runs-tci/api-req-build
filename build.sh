@@ -6,7 +6,7 @@
 #   the Travis CI platform for the commits that don't have the .travis.yml file.
 #
 # Usage:
-#   sh build.sh -b 'BRANCH' -t 'TOKEN' -c 'COMMIT-SHA' -r 'REPOSITORY-SLUG'
+#   sh build.sh -r 'REPOSITORY-SLUG' -b 'BRANCH' -c 'COMMIT-SHA' -t 'TOKEN'
 #
 # where:
 #   -b = branch
