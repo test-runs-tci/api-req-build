@@ -32,7 +32,7 @@ done
 
 echo "Triggering an API build on Travis CI for commit $commit on branch $branch for repo $repo"
 
-# Change the config to desired
+# Change the config to desired, use https://config.travis-ci.com/explore to get Parsed and validated config.
 body='{
  "request": {
  "message": "API request build",
